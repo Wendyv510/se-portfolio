@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-
+:root { 
+  --primary-white: #fff;
+  --primary-orange: #f9ab00
+}
 
 body {
   font-family: "Roboto Condensed" sans-serif;
@@ -15,4 +18,12 @@ nav a.nav-link {
 
 nav ul li {
   text-tansform: uppercase
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-nav > li > a.hover {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
