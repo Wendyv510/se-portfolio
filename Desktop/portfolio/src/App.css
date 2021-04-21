@@ -68,5 +68,6 @@ nav ul li {
   text-transform: uppercase;
   border-radius: 0;
   padding: 10px 12px 12px 12px; 
-  color: var(--primary-white); 
+  color: var(--primary-white);
+  background-color: var(--primary-dark); 
 }
