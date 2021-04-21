@@ -5,10 +5,10 @@ function Header() {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-              <h1> Wendy Harris Software Engineer </h1>
+              <h1> Wendy Harris </h1>
               <Typed 
                  className="typed-text"
-                 strings={["Web Desing", "Web Development"]}
+                 strings={["Software Engineer", "Full Stack Developer"]}
                  typeSpeed={40}
                  backSpeed={60}
                  loop

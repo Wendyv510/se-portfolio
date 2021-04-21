@@ -2,7 +2,8 @@
 
 :root { 
   --primary-white: #fff;
-  --primary-orange: #f9ab00
+  --primary-orange: #f9ab00;
+  --primary-dar: rgba(255,255,255,0);
   --primary-red: #ef4035
 }
 
@@ -41,6 +42,11 @@ nav ul li {
 
 .main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
   flex-direction: column; 
   justify-content: center;
   align-items: center;
@@ -54,9 +60,13 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white)
+  color: var(--primary-dark)
 }
 
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 5px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px; 
+  color: var(--primary-white); 
 }
