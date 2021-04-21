@@ -3,6 +3,7 @@
 :root { 
   --primary-white: #fff;
   --primary-orange: #f9ab00
+  --primary-red: #ef4035
 }
 
 body {
@@ -54,4 +55,8 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white)
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
 }

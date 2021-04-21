@@ -11,7 +11,9 @@ function Header() {
                  strings={["Web Desing", "Web Development"]}
                  typeSpeed={40}
                  backSpeed={60}
+                 loop
               />
+              <a href ="#" className="btn-main-offer">Contact Me</a>
             </div>
         </div>
     )
