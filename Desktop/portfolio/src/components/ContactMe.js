@@ -1,6 +1,8 @@
 import React from "react";
+import "../app.css" 
+import {db } from "../FIrebase"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faMail } from '@fortawesome/free-solid-svg-icons'
+//import { mail-bulk } from '@fortawesome/free-solid-svg-icons'
 
 const ContactMe = () => {
     return (
