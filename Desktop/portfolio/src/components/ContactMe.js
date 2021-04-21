@@ -1,11 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faMail } from '@fortawesome/free-solid-svg-icons'
 
 const ContactMe = () => {
     return (
     <div className="formbody">
         <form className="form">
-            <h1>Contact Me  <i className="fa-mail-bulk"></i></h1>
-
+            <h1>Contact Me  <FontAwesomeIcon icon="mail-bulk" /></h1>
+            
             <label>Name:</label>
             <input placeholder="name" /> 
 
