@@ -10,7 +10,23 @@ const ContactMe = () => {
     const [message,setMessage] = useState("")
 
     const handleSubmit = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
+        
+        db.collection('contacts').add({
+            name:name,
+            email:email,
+            message:message
+        })
+        .then(() => {
+            alert("Message has been submitted");
+        })
+        .catch((error) => {
+            alert(error.message);
+        })
+
+        setName("");
+        setEmail("");
+        setMessage("");
     }
 
     return (
