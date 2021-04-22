@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+// import Navbar from './components/Navbar'
+// import Header from './components/Header' 
+// import Resume from './components/Resume'
+// import ContactMe from './components/ContactMe'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
