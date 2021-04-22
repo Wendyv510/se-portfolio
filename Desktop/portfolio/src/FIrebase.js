@@ -14,6 +14,6 @@ import firebase from "firebase"
 
 firebase.initializeApp(firebaseConfig);
 
-var db = firebaseApp.firestore();
+ 
 
 export {db }
