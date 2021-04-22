@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome" 
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 const Navbar = () => {
@@ -13,22 +14,22 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <Link to = "/Header">Home </Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="">About</a>
+        <Link to = "/About">About</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+      <Link to = "/Resume">Resume</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Projects</a>
+      <Link to = "/About">Projects</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Blog</a>
+      <Link to = "/About">Blog</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact Me</a>
+      <Link to = "/About">Contact Me</Link>
       </li>
     </ul>
     
