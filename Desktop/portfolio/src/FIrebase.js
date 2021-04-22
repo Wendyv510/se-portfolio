@@ -1,6 +1,6 @@
 import firebase from "firebase" 
 
-var firebaseApp = firebase.initializeApp({
+
     // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyA2lAMANRJkDKJc3gvvXiZssfenMXE-vPw",
@@ -11,7 +11,8 @@ var firebaseApp = firebase.initializeApp({
     messagingSenderId: "992744676285",
     appId: "1:992744676285:web:d497fa06cbbe39046310d4"
   };
-})
+
+firebase.initializeApp(firebaseConfig);
 
 var db = firebaseApp.firestore();
 

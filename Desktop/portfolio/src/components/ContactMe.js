@@ -1,5 +1,5 @@
 import React from "react";
-import "../app.css" 
+import "../App.css" 
 import {db } from "../Firebase"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import { mail-bulk } from '@fortawesome/free-solid-svg-icons'
