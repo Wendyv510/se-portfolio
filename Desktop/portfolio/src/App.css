@@ -19,7 +19,7 @@ nav a.nav-link {
 }
 
 nav ul li {
-  text-tansform: uppercase
+  text-tansform: uppercase;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
