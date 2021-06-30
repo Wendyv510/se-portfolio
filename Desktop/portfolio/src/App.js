@@ -5,7 +5,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Navbar from "./components/Navbar";
 import Header from "./components/Header" 
-import ContactMe from "./components/ContactMe" 
 import Resume from "./components/Resume"
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
     <Navbar />
     <Header />
     <Resume /> 
-    <ContactMe /> 
+     
     </>
   );
 }
