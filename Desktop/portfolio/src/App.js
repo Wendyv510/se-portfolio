@@ -6,14 +6,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header" 
 import Resume from "./components/Resume"
+import About from "./components/About"
+import ContactMe from "./components/ContactMe"
 
 function App() {
   return (
     <>
     <Navbar />
-    <Header />
-    <Resume /> 
-     
+    <Header /> 
+    <About />
+    <Resume />
+    <ContactMe/> 
     </>
   );
 }
