@@ -2,8 +2,10 @@ import React from 'react'
 
 const Resume = () => {
     return (
-        <div>
-            <h1> Resume </h1>
+        <div className="resume">
+            <img  src={`${process.env.PUBLIC_URL}/Wendy Harris-Resume.pdf(read-only)`}
+                      alt="resume" 
+                />
         </div>
     )
 }
