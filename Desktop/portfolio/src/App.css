@@ -80,17 +80,19 @@ nav ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f9ab00;
 }
 
-.about .info {
-  width: 100%;
+.about .intro {
+  width: 20%;
   font-size: 18px;
+  color: green;
   text-align: center; 
 }
 
 
 about .picture { 
-  width: 100%;
+  width: 20%;
   margin-top: 20px 
 }
 
