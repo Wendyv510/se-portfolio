@@ -86,7 +86,7 @@ nav ul li {
 .about .intro {
   width: 100%;
   font-size: 14px;
-  font-family: "Apple Chancery" cursive;
+  font-family: "Apple Chancery";
   color: green;
   text-align: center; 
 }
@@ -94,11 +94,15 @@ nav ul li {
 
 .about .picture { 
   width: 20%;
-  margin-top: 20px;
-  align-items: center; 
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
 }
 
 .about .picture img {
   width: 80%
 }
+
+@media 
 

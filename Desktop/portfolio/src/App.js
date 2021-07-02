@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Resume from "./components/Resume"
 import About from "./components/About"
 import ContactMe from "./components/ContactMe"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     <Header /> 
     <About />
     <Resume />
-    <ContactMe/> 
+    <ContactMe /> 
+    <Footer /> 
     </>
   );
 }
