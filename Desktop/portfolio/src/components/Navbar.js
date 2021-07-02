@@ -1,7 +1,8 @@
 import React from "react"
-
+import { Link } from "react-router-dom" 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome" 
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,22 +15,22 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <a href = "/Header">Home </a>
+        <Link to= "/Header">Home </Link>
       </li>
       <li className="nav-item">
-        <a href = "/About">About</a>
+        <Link to= "/About">About</Link>
       </li>
       <li className="nav-item">
-      <a href = "/Resume">Resume</a>
+      <Link to="/Resume">Resume</Link>
       </li>
       <li className="nav-item">
-      <a href = "/About">Projects</a>
+      <Link to= "/Projects">Projects</Link>
       </li>
       <li className="nav-item">
-      <a href = "/About">Blog</a>
+      <Link to= "/Blog">Blog</Link>
       </li>
       <li className="nav-item">
-      <a href = "/About">Contact Me</a>
+      <Link to= "/ContactMe">Contact Me</Link>
       </li>
     </ul>
     
