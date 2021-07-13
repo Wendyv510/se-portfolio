@@ -27,9 +27,7 @@ const ContactForm = () => {
 	<section Name="ftco-section">
   <div className="container">
     <div className="row justify-content-center">
-      <div className="col-md-6 text-center mb-5">
-        <h2 className="heading-section">Contact Form #05</h2>
-      </div>
+      
     </div>
     <div className="row justify-content-center">
       <div className="col-md-12">
@@ -37,8 +35,8 @@ const ContactForm = () => {
           <div className="row no-gutters">
             <div className="col-lg-6">
               <div className="contact-wrap w-100 p-md-5 p-4">
-                <h3>Contact us</h3>
-                <p className="mb-4">We're open for any suggestion or just to have a chat</p>
+                <h3>Contact Me</h3>
+                <p className="mb-4">Open for any suggestions or just to have a chat</p>
                 <div id="form-message-warning" className="mb-4"></div> 
                 <div id="form-message-success" className="mb-4">
                   Your message was sent, thank you!
@@ -100,7 +98,13 @@ const ContactForm = () => {
                 
               </div>
             </div>
-            
+            <div className="col-lg-6 d-flex align-items-stretch">
+            <div className="info-wrap w-100 p-5 img">
+            <img  src={`${process.env.PUBLIC_URL}/assets/contact-form-05/images/img.jpg`}
+                      alt="plants" 
+                />
+            </div>
+			          </div>
             </div>
           </div>
         </div>
