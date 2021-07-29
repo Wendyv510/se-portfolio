@@ -6,7 +6,7 @@ const ContactMe = () => {
   function sendEmail(e) {
     e.preventDefault(); 
 
-    emailjs.sendForm('gmail', 'template_hrzm03x', e.target, 'user_A6LvA340P4nCzBwlFdqRG') 
+    emailjs.sendForm('service_k8zesyk', 'template_hrzm03x', e.target, 'user_A6LvA340P4nCzBwlFdqRG') 
        .then((result) => {
         alert("Message Sent, I will get back to you shortly", result.text);
         }, (error) => {
