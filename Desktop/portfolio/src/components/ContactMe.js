@@ -1,27 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
+import emailjs from 'emailjs-com'; 
 
-const ContactForm = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
+const ContactMe = () => {
+
+  function sendEmail(e) {
+    e.preventDefault(); 
+
+    emailjs.sendForm('YOUR_Service_ID', 'Your_template_id', e.target, 'Your_user_id') 
+       .then((result) => {
+       console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        })
+  }
+
   return (
     
 	<section Name="ftco-section">
@@ -38,9 +30,6 @@ const ContactForm = () => {
                 <h3>Contact Me</h3>
                 <p className="mb-4">Open for any suggestions or just to have a chat</p>
                 <div id="form-message-warning" className="mb-4"></div> 
-                <div id="form-message-success" className="mb-4">
-                  Your message was sent, thank you!
-                </div>
                 <div className="row mb-4">
                   <div className="col-md-4">
                     <div className="dbox w-100 d-flex align-items-start">
@@ -65,7 +54,7 @@ const ContactForm = () => {
                     </div>
                   </div>
                 </div>
-                <form method="POST" id="contactForm" name="contactForm" className="contactForm">
+                <form className="contactForm" onSubmit={sendEmail}>
                   <div className="row">
                     <div className="col-md-12">
                       <div className="form-group">
@@ -121,4 +110,4 @@ const ContactForm = () => {
 
 
 
-export default ContactForm;
+export default ContactMe;

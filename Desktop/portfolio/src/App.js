@@ -8,6 +8,8 @@ import Header from "./components/Header"
 import About from "./components/About"
 import ContactMe from "./components/ContactMe"
 import Footer from "./components/Footer"
+import{ init } from 'emailjs-com';
+init("user_A6LvA340P4nCzBwlFdqRG");
 
 function App() {
   return (
