@@ -13,3 +13,5 @@
       </div>
       <button type="submit">{status}</button>
     </form>
+
+    emailjs.sendForm('gmail', 'Your_template_id', e.target, 'Your_user_id') 

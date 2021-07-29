@@ -6,11 +6,11 @@ const ContactMe = () => {
   function sendEmail(e) {
     e.preventDefault(); 
 
-    emailjs.sendForm('YOUR_Service_ID', 'Your_template_id', e.target, 'Your_user_id') 
+    emailjs.sendForm('gmail', 'template_hrzm03x', e.target, 'user_A6LvA340P4nCzBwlFdqRG') 
        .then((result) => {
-       console.log(result.text);
+        alert("Message Sent, I will get back to you shortly", result.text);
         }, (error) => {
-          console.log(error.text);
+          alert("An error occurred, Please try again", error.text);
         })
   }
 
