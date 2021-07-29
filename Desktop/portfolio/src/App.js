@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import About from "./components/About"
 import ContactMe from "./components/ContactMe"
 import Footer from "./components/Footer"
+import Blog from "./components/Blog" 
 import{ init } from 'emailjs-com';
 init("user_A6LvA340P4nCzBwlFdqRG");
 
@@ -18,10 +19,12 @@ function App() {
         <Switch>
           <Route exact path="/Header" component={Header} />
           <Route exact path="/About" component={About} />
+          <Route exact path="/Blog" component={Blog} /> 
           <Route exact path="/ContactMe" component={ContactMe} />
         </Switch>
       <Header /> 
       <About />
+      <Blog />
       <Footer />
       <ContactMe /> 
      
