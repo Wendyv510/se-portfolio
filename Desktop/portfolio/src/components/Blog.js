@@ -1,9 +1,11 @@
-import React from 'react' 
+import React from 'react'; 
 
-const Blog = () => {
+function Blog() {
     return (
         <div className="blog-wrapper"> 
-
+            <div className="blog-info">
+              <h1> Check out my blog on Medium  </h1>
+            </div>
         </div>
     )
 }
