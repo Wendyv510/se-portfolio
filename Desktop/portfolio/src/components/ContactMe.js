@@ -98,8 +98,8 @@ const ContactForm = () => {
                 
               </div>
             </div>
-            <div className="col-lg-6 d-flex align-items-stretch">
-            <div className="info-wrap w-100 p-5 img">
+            <div className="pic">
+            <div className="plant-image">
             <img  src={`${process.env.PUBLIC_URL}/assets/contact-form-05/images/img.jpg`}
                       alt="plants" 
                 />

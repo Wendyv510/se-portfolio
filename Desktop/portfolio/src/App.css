@@ -113,17 +113,17 @@ footer {
 }
 
 footer img {
-  max-width: 60px; 
+  max-width: 80px; 
 }
 
 
 
-/****************** Resume **********************/
 
-.resume img {
-  width: 100% 
-}
 
 
 /**************** Contact Me *******************/ 
 
+.pic plant-image { 
+  width: 20%;
+  height: 20%
+}
