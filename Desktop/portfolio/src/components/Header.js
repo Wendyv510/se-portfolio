@@ -13,7 +13,6 @@ function Header() {
                  backSpeed={60}
                  loop
               />
-              <button className="btn-main-offer">Contact Me</button>
             </div>
         </div>
     )
