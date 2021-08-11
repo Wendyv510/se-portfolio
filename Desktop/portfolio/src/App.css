@@ -116,8 +116,32 @@ footer img {
   max-width: 80px; 
 } 
 
+/*************** Blog **********************/
+
+.blog {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.blog h1 {
+  color: var(--primary-orange);
+}
+
 .blog img {
   max-width: 140px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
   text-align: center; 
 }
 

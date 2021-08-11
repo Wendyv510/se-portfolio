@@ -11,6 +11,7 @@ function Blog() {
                                                  
         
         }} > 
+        <div className="blog" >
             <h1 style={{color: 'var(--primary-orange)',
                             display: 'flex',
                             flexDirection: 'column',
@@ -18,13 +19,14 @@ function Blog() {
                             justifyContent: 'center',
                             alignItems: 'center',
                             textAlign: 'center',}}> Check out my blog on Medium  </h1>
-            <div className="blog img">
+            
             < a href="https://wendyharris8765.medium.com/"
                 > 
                 <img src = "https://lever-client-logos.s3.us-west-2.amazonaws.com/762fd4bd-7d50-4ac3-80d3-bad44702bf87-1604363697348.png" 
-                     alt="Medium-icon" />
+                     alt="Medium-icon" 
+                     />
                  </a>
-                 </div>
+            </div>
             <div className="blog-info" style={{
                                                     display: 'flex',
                                                     position: 'absolute',
