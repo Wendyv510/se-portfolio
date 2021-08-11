@@ -2,13 +2,22 @@ import React from 'react';
 
 function Blog() {
     return (
+        
         <div className="blog-wrapper" style={{ backgroundImage: "url(https://vanillapapers.net/wp-content/uploads/2019/07/photo-1-1.jpg)",
                                                backgroundPosition: 'center', 
                                                backgroundSize: 'cover',
                                                backgroundRepeat: 'no-repeat',
-                                               height: '70vh',   
+                                               height: '70vh', 
+                                                 
         
         }} > 
+            <h1 style={{color: 'var(--primary-orange)',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            textAlign: 'center',}}> Check out my blog on Medium  </h1>
             <div className="blog-info" style={{
                                                     display: 'flex',
                                                     position: 'absolute',
@@ -23,7 +32,7 @@ function Blog() {
                                                      }}> 
 
 
-              <h1 style={{color: 'var(--primary-orange)'}}> Check out my blog on Medium  </h1>
+              
             </div>
         </div>
     )
