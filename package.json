@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/Wendyv510/se-portfolio#readme",
   "dependencies": {
-    "react-scripts": "^4.0.3"
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "emailjs-com": "^3.2.0",
+    "react-scripts": "^4.0.3",
+    "react-typed": "^1.2.0"
   },
   "browserslist": {
     "production": [
