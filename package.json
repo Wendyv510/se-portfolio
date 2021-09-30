@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Wendyv510/se-portfolio/issues"
   },
-  "homepage": "https://www.wendyharrissoftwareengineer.com/",
+  "homepage": "https://github.com/Wendyv510/se-portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.1",
