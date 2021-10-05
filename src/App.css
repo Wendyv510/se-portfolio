@@ -118,7 +118,7 @@ footer img {
 
 /*************** Blog **********************/
 
-.blog {
+.blog-wrapper .blog {
   display: flex;
   position: absolute;
   top: 0;
