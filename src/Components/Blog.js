@@ -23,7 +23,15 @@ function Blog() {
             < a href="https://wendyharris8765.medium.com/"
                 > 
                 <img src = "https://lever-client-logos.s3.us-west-2.amazonaws.com/762fd4bd-7d50-4ac3-80d3-bad44702bf87-1604363697348.png" 
-                     alt="Medium-icon" 
+                     alt="Medium-icon" style={{ 
+                        max-width: 140px, 
+                        display: flex, 
+                        flex-direction: column, 
+                        justify-content: center,
+                        align-items: center, 
+                        text-align: center,  
+
+                     }}
                      />
                  </a>
             </div>
