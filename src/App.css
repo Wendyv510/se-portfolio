@@ -19,7 +19,7 @@ nav a.nav-link {
 }
 
 nav ul li {
-  text-tansform: uppercase;
+  text-transform: uppercase;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
@@ -118,7 +118,7 @@ footer img {
 
 /*************** Blog **********************/
 
-.blog-wrapper .blog {
+/*.blog {
   display: flex;
   position: absolute;
   top: 0;
