@@ -88,7 +88,7 @@ const ContactMe = () => {
               </div>
             </div>
               <div className="col-lg-6 d-flex align items-stretch">
-                <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: "url(/assets/contact-form-05/images/img.jpg",
+                <div className="info-wrap w-100 p-5 img" style={{ backgroundImage: "url(/public/assets/contact-form-05/images/img.jpg",
                                                                   backgroundPosition: 'center', 
                                                                   backgroundSize: 'cover',
                                                                   backgroundRepeat: 'no-repeat'  
