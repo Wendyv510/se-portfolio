@@ -15,3 +15,9 @@
     </form>
 
     emailjs.sendForm('Your_service_id', 'Your_template_id', e.target, 'Your_user_id') 
+
+    navbar.js 12    
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <FontAwesomeIcon icon={faBars} />
+  </button>
+
