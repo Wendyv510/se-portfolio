@@ -24,12 +24,12 @@ function Blog() {
                 > 
                 <img src = "https://lever-client-logos.s3.us-west-2.amazonaws.com/762fd4bd-7d50-4ac3-80d3-bad44702bf87-1604363697348.png" 
                      alt="Medium-icon" style={{ 
-                        max-width: 140px, 
-                        display: flex, 
-                        flex-direction: column, 
-                        justify-content: center,
-                        align-items: center, 
-                        text-align: center,  
+                        maxWidth: '140px', 
+                        display: 'flex', 
+                        flexDirection: 'column', 
+                        justifyContent: 'center',
+                        alignItems: 'center', 
+                        textAlign: 'center',  
 
                      }}
                      />
