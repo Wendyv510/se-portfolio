@@ -26,6 +26,7 @@ function Blog() {
                      alt="Medium-icon" style={{ 
                         maxWidth: '140px', 
                         display: 'flex', 
+                        margin: 'auto', 
                         flexDirection: 'column', 
                         justifyContent: 'center',
                         alignItems: 'center', 
